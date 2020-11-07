@@ -67,12 +67,14 @@
 - PC端程式
 
 ### 互動體驗
-- 通訊方式會影響手臂動作流暢度 使用RSI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=158)
+- 通訊方式會影響手臂動作流暢度
+- 使用EK
+- 使用RSI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=158)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTMwMzQxMiwyMDM3MjMyMTc2LC0xMD
-MwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYw
-OTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDIwNjc1MjksMjAzNzIzMjE3NiwtMT
+AzMDE2MzA4OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2
+MDkyNTQsLTg2MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
