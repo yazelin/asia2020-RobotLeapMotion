@@ -54,7 +54,7 @@
 - 使用USB連結Leapmotion與PC
 - 使用網路連結PC與機器手臂
 #### 軟體
-- KUKA EKI
+- EKI (KUKA網路通訊介面
 - Unity
 - Leapmotion SDK
 #### 通訊方式
@@ -67,6 +67,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NTk3MTc5LC0xODk0NjA5MjU0LC04Nj
-A1NDIzNzcsLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbMTk4NTY0MTUyNywtMTg5NDYwOTI1NCwtOD
+YwNTQyMzc3LC00MzIwNDIwNTFdfQ==
 -->
