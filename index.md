@@ -40,6 +40,7 @@
 	- 手臂程式執行方式
 		- 先教點
 		- 用指令讓手臂重現動作
+
 ### Leap Motion簡介
     - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
@@ -50,5 +51,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDU0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbLTE4MzEwMDE2ODcsLTg2MDU0MjM3NywtND
+MyMDQyMDUxXX0=
 -->
