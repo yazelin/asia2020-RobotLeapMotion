@@ -50,20 +50,23 @@
 #### 硬體
 - Robot KR6 R700-2 1台
 - Leapmotion 1台
-- 電腦 1台
-- 使用USB連結Leapmotion與電腦
-- 使用網路連結電腦與機器手臂
+- PC 1台
+- 使用USB連結Leapmotion與PC
+- 使用網路連結PC與機器手臂
 #### 軟體
 - KUKA EKI
 - Unity
 - Leapmotion SDK
 #### 通訊方式
-
+- EKI XML 格式
+- 手臂端設定檔
+- 手臂端程式
+- PC端程式
 ### 互動體驗
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzg5MzE5LC0xODk0NjA5MjU0LC04Nj
+eyJoaXN0b3J5IjpbNjQ5NTk3MTc5LC0xODk0NjA5MjU0LC04Nj
 A1NDIzNzcsLTQzMjA0MjA1MV19
 -->
