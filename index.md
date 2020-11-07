@@ -42,6 +42,7 @@
   - 用指令讓手臂重現動作
 
 ### Leap Motion簡介
+  - 使用擷取手掌姿態的裝置
   - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
 ### Leap Motion與機器手臂互動介紹
@@ -53,6 +54,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMzk3MDU3LC04NjA1NDIzNzcsLTQzMj
-A0MjA1MV19
+eyJoaXN0b3J5IjpbLTE4OTQ2MDkyNTQsLTg2MDU0MjM3NywtND
+MyMDQyMDUxXX0=
 -->
