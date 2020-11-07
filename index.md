@@ -1,7 +1,7 @@
 ## KUKA 機器手臂與Leap Motion
 
 ### KUKA 機器手臂簡介
-- [KUKA](https://www.kuka.com/)
+- KUKA [官網](https://www.kuka.com/) / [wiki](https://zh.wikipedia.org/wiki/%E5%BA%93%E5%8D%A1)
 
 ## 手臂基本介紹
 ### 六軸機器手臂
@@ -69,6 +69,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC0xOD
-k0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbLTEwMzAxNjMwODgsLTE5MzUyNDc0MDUsNT
+I1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0
+MjA1MV19
 -->
