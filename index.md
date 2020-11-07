@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub PagesKUKA 機器手臂與Leap Motion
 
-You can use the [editor on GitHub](https://github.com/yazelin/asia2020-RobotLeapMotion/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### KUKA 機器手臂簡介
+- [KUKA](https://www.kuka.com/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 手臂基本介紹
+### 六軸機器手臂
+![Image](./img/RobotSystem.jpg)
 
-### Markdown
+### 軸向
+- A1~A6 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image](./img/RobotAxis.jpg)
 
-```markdown
-Syntax highlighted code block
+### 空間
+- Base空間
 
-# Header 1
-## Header 2
-### Header 3
+![Image](./img/RobotCoordinateSystem.jpg)
 
-- Bulleted
-- List
+- Tool空間
 
-1. Numbered
-2. List
+![Image](./img/Tool.jpg) 
 
-**Bold** and _Italic_ and `Code` text
+### 線上模擬環境
+- 我們把模擬環境放在網站上了
+- 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
+- 在模擬器中我們可以學到這些
+- 座標系
+  - WORLD
+  - BASE
+  - TOOL  
+- 操作方式
+  - XYZ ABC
+  - AXIS
+- 運動指令
+  - PTP
+  - LIN
+  - CIRC(網頁版的模擬器中沒有) 
+- 軸極限  
+  - A1~A6
+- 手臂程式執行方式
+  - 先教點
+  - 用指令讓手臂重現動作
 
-[Link](url) and ![Image](src)
-```
+### Leap Motion簡介
+  - 使用擷取手掌姿態的裝置
+  - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
+  
+### Leap Motion與機器手臂互動介紹
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### 硬體
+- Robot KR6 R700-2
+- Leapmotion
+- PC
+- 使用 USB 連結 Leapmotion 與 PC
+- 使用 網路線 連結 PC 與 機器手臂
+#### 軟體
+- EKI KUKA網路通訊介面
+- Unity 遊戲引擎
+- Leapmotion SDK
+#### 通訊方式
+- EKI XML 格式
+- 手臂端設定檔
+- 手臂端程式
+- PC端程式
 
-### Jekyll Themes
+### 互動體驗
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yazelin/asia2020-RobotLeapMotion/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04Nj
+A1NDIzNzcsLTQzMjA0MjA1MV19
+-->
