@@ -1,4 +1,4 @@
-## Welcome to GitHub PagesKUKA 機器手臂與Leap Motion
+## KUKA 機器手臂與Leap Motion
 
 ### KUKA 機器手臂簡介
 - [KUKA](https://www.kuka.com/)
@@ -69,6 +69,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04Nj
-A1NDIzNzcsLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC0xOD
+k0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV19
 -->
