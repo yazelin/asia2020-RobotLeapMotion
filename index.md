@@ -29,17 +29,17 @@
   - BASE
   - TOOL  
 - 操作方式
-   - XYZ ABC
-       - AXIS
+  - XYZ ABC
+  - AXIS
 - 運動指令
-	- PTP
-	- LIN
-	- CIRC(網頁版的模擬器中沒有) 
+  - PTP
+  - LIN
+  - CIRC(網頁版的模擬器中沒有) 
 - 軸極限  
-	- A1~A6
+  - A1~A6
 - 手臂程式執行方式
-	- 先教點
-	- 用指令讓手臂重現動作
+  - 先教點
+  - 用指令讓手臂重現動作
 
 ### Leap Motion簡介
     - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
@@ -53,6 +53,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTk1NDM2NSwtODYwNTQyMzc3LC00Mz
+eyJoaXN0b3J5IjpbMTE5ODcxNjAzMywtODYwNTQyMzc3LC00Mz
 IwNDIwNTFdfQ==
 -->
