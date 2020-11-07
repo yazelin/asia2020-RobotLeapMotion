@@ -47,6 +47,11 @@
   
 ### Leap Motion與機器手臂互動介紹
 
+#### 硬體
+- Robot KR6 R700-2 1台
+- Leapmotion 1台
+- 電腦 1台
+
 #### 通訊方式
 
 ### 互動體驗
@@ -54,6 +59,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ2MDkyNTQsLTg2MDU0MjM3NywtND
-MyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbLTE0NDMzMTg5OTAsLTE4OTQ2MDkyNTQsLT
+g2MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
