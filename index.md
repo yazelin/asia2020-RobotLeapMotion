@@ -68,13 +68,13 @@
 
 ### 互動體驗
 - 通訊方式會影響手臂動作流暢度
-- 使用EK
+- 使用EKI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=38)
 - 使用RSI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=158)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIwNjc1MjksMjAzNzIzMjE3NiwtMT
-AzMDE2MzA4OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2
-MDkyNTQsLTg2MDU0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbNDM5MDM5NjI3LDIwMzcyMzIxNzYsLTEwMz
+AxNjMwODgsLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC0xODk0NjA5
+MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV19
 -->
