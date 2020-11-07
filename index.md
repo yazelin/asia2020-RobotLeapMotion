@@ -46,7 +46,7 @@
   - 使用擷取手掌姿態的裝置
   - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
-### Leap Motion與機器手臂互動介紹
+## Leap Motion與機器手臂互動介紹
 #### Unity+leapmotion與機器手臂
 -   [參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
 -   [參考影片2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
@@ -74,8 +74,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNDA1NzQwLDQzOTAzOTYyNywyMDM3Mj
-MyMTc2LC0xMDMwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkw
-MSwtMTg5NDYwOTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ
-==
+eyJoaXN0b3J5IjpbLTEyODM5NzkzODMsNDM5MDM5NjI3LDIwMz
+cyMzIxNzYsLTEwMzAxNjMwODgsLTE5MzUyNDc0MDUsNTI1NzUx
+OTAxLC0xODk0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV
+19
 -->
