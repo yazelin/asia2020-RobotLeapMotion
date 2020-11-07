@@ -1,50 +1,53 @@
 ## Welcome to GitHub PagesKUKA 機器手臂與Leap Motion
 
 ### KUKA 機器手臂簡介
-#### 硬體
-#### 軟體
+
+## 手臂基本介紹
+### 六軸機器手臂
+![Image](./img/RobotSystem.jpg)
+
+### 軸向
+- A1~A6 
+
+![Image](./img/RobotAxis.jpg)
+
+### 空間
+- Base空間
+
+![Image](./img/RobotCoordinateSystem.jpg)
+
+- Tool空間
+
+![Image](./img/Tool.jpg) 
+
+### 線上模擬環境
+- 我們把模擬環境放在網站上了
+- 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
+- 在模擬器中我們可以學到這些
+	- 座標系
+		- WORLD
+		- BASE
+		- TOOL    
+	- 操作方式
+		- XYZ ABC
+		- AXIS
+	- 運動指令
+		- PTP
+		- LIN
+		- CIRC(網頁版的模擬器中沒有) 
+	- 軸極限  
+		- A1~A6
+	- 手臂程式執行方式
+		- 先教點
+		- 用指令讓手臂重現動作
 ### Leap Motion簡介
+
 ### Leap Motion與機器手臂互動介紹
 #### 通訊方式
 ### 互動體驗
 
 
 
-You can use the [editor on GitHub](https://github.com/yazelin/asia2020-RobotLeapMotion/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yazelin/asia2020-RobotLeapMotion/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbMTE4ODczNTY0MiwtNDMyMDQyMDUxXX0=
 -->
