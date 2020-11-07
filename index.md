@@ -21,16 +21,16 @@
 ![Image](./img/Tool.jpg) 
 
 ### 線上模擬環境
-- 我們把模擬環境放在網站上了
-- 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
-- 在模擬器中我們可以學到這些
-	- 座標系
-		- WORLD
-		- BASE
-		- TOOL    
-	- 操作方式
-		- XYZ ABC
-		- AXIS
+    - 我們把模擬環境放在網站上了
+    - 網址在這邊  [RobotSim WebPlayer](http://www.wtech.com.tw/robotsim/demo)
+    - 在模擬器中我們可以學到這些
+    - 座標系
+        - WORLD
+        - BASE
+        - TOOL  
+    - 操作方式
+        - XYZ ABC
+        - AXIS
 	- 運動指令
 		- PTP
 		- LIN
@@ -45,12 +45,14 @@
     - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
 ### Leap Motion與機器手臂互動介紹
+
 #### 通訊方式
+
 ### 互動體驗
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEwMDE2ODcsLTg2MDU0MjM3NywtND
+eyJoaXN0b3J5IjpbLTE5MzE0MTI5MTksLTg2MDU0MjM3NywtND
 MyMDQyMDUxXX0=
 -->
