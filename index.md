@@ -48,11 +48,11 @@
 ### Leap Motion與機器手臂互動介紹
 
 #### 硬體
-- Robot KR6 R700-2 1台
-- Leapmotion 1台
-- PC 1台
-- 使用USB連結Leapmotion與PC
-- 使用網路連結PC與機器手臂
+- Robot KR6 R700-2
+- Leapmotion
+- PC
+- 使用 USB 連結 Leapmotion 與 PC
+- 使用 網路線 連結 PC 與 機器手臂
 #### 軟體
 - EKI KUKA網路通訊介面
 - Unity 遊戲引擎
@@ -62,11 +62,12 @@
 - 手臂端設定檔
 - 手臂端程式
 - PC端程式
+
 ### 互動體驗
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzQyNjQsLTE4OTQ2MDkyNTQsLTg2MD
-U0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbMTg0NTI2MzY2OSwtMTg5NDYwOTI1NCwtOD
+YwNTQyMzc3LC00MzIwNDIwNTFdfQ==
 -->
