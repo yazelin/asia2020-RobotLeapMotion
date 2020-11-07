@@ -47,7 +47,9 @@
   - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
 ### Leap Motion與機器手臂互動介紹
-
+#### Unity+leapmotion與機器手臂
+-   [參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
+-   [參考影片2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 #### 硬體
 - Robot KR6 R700-2
 - Leapmotion
@@ -69,7 +71,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAxNjMwODgsLTE5MzUyNDc0MDUsNT
-I1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0
-MjA1MV19
+eyJoaXN0b3J5IjpbMjAzNzIzMjE3NiwtMTAzMDE2MzA4OCwtMT
+kzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2MDU0
+MjM3NywtNDMyMDQyMDUxXX0=
 -->
