@@ -42,7 +42,7 @@
   - 用指令讓手臂重現動作
 
 ### Leap Motion簡介
-    - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
+  - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
 ### Leap Motion與機器手臂互動介紹
 
@@ -53,6 +53,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODcxNjAzMywtODYwNTQyMzc3LC00Mz
-IwNDIwNTFdfQ==
+eyJoaXN0b3J5IjpbMzMwMzk3MDU3LC04NjA1NDIzNzcsLTQzMj
+A0MjA1MV19
 -->
