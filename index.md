@@ -69,8 +69,8 @@ allowfullscreen></iframe>
 - Leapmotion SDK
 #### 通訊方式
 - EKI XML 格式
-- 手臂端設定檔 [下載](./src)
-- 手臂端程式
+- 手臂端設定檔 [下載](./src/LeapMotion/LeepRobotServer.xml)
+- 手臂端程式 [下載](./src/LeapMotion/LeepRobotServer.xml)
 - PC端程式
 ## 互動體驗
 - 通訊方式會影響手臂動作流暢度
@@ -80,7 +80,7 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjI1NTQ5NiwxMjg0NTc2NzIyLDYwMD
+eyJoaXN0b3J5IjpbLTQ5MDM5NDE4OCwxMjg0NTc2NzIyLDYwMD
 I0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2LC0xMjgzOTc5
 MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYzMDg4LC
 0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NCwtODYw
