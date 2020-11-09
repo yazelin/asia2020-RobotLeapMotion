@@ -51,7 +51,7 @@
 <iframe width="560" height="315"
 src="./demo.mp4" 
 frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
 -   [其他參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
@@ -80,9 +80,9 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MjM2MTEwLDEyODQ1NzY3MjIsNjAwMj
-Q1NjE2LC0xODU2NDE5OTIzLDEyMjY4Njc5OTYsLTEyODM5Nzkz
-ODMsNDM5MDM5NjI3LDIwMzcyMzIxNzYsLTEwMzAxNjMwODgsLT
-E5MzUyNDc0MDUsNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1
-NDIzNzcsLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbLTUzNTY1NjU4LDQwODIzNjExMCwxMjg0NT
+c2NzIyLDYwMDI0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2
+LC0xMjgzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMD
+MwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYw
+OTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
 -->
