@@ -68,10 +68,10 @@ allowfullscreen></iframe>
 - Unity 遊戲引擎
 - Leapmotion SDK
 #### 通訊方式
-- EKI XML 格式
+- EKI XML 格式 
 - 手臂端設定檔 [下載](./src/LeapMotion/LeepRobotServer.xml)
-- 手臂端程式 [下載](./src/LeapMotion/LeepRobotServer.xml)
-- PC端程式
+- 手臂端程式 [下載](./src/LeapMotion/LeapMotionRobot.zip)
+- PC端程式 [下載](./src/LeapMotion/LeapMotionExample.zip)
 ## 互動體驗
 - 通訊方式會影響手臂動作流暢度
 - 使用EKI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=38)
@@ -80,9 +80,9 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDM5NDE4OCwxMjg0NTc2NzIyLDYwMD
-I0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2LC0xMjgzOTc5
-MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYzMDg4LC
-0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NCwtODYw
-NTQyMzc3LC00MzIwNDIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTEyMDM3MjYwMTQsMTI4NDU3NjcyMiw2MD
+AyNDU2MTYsLTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMTI4Mzk3
+OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4OC
+wtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2
+MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
