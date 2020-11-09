@@ -104,6 +104,75 @@ allowfullscreen></iframe>
 </ETHERNETKRL>
 ```
 - 手臂端程式
+```
+DEF  LeapMotionExample ( )
+   DECL Wt_Pos_Q_DATA_STRUC DATA
+   DECL EKI_STATUS RET
+   FRAME MOVETO
+   
+   GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )
+   INTERRUPT ON 3 
+   BAS (#INITMOV,0)
+   
+   GLOBAL INTERRUPT DECL 100 WHEN $FLAG[2] == TRUE DO Command_Processing()
+   INTERRUPT ON 100
+   
+   RET = EKI_Init(LEAP_SERVER[])
+   RET = EKI_Open(LEAP_SERVER[])
+   
+   INTERRUPT ON 100
+   
+   MOVETO = {X 0,Y 0,Z 0,A 0,B 0,C 0}
+   
+   
+   BAS(#TOOL ,1)
+   BAS(#BASE ,1)
+   PTP $POS_ACT
+   PTP {X 0,Y 0,Z 0,A 0,B 0,C 0}
+   
+   Wt_Pos_Q_Init ( )
+   
+   WHILE TRUE
+      IF NOT Wt_Pos_Q_IsEmpty() THEN
+         DATA = Wt_Pos_Q_Dequeue()
+         MOVETO.X = DATA.DATA_X
+         MOVETO.Y = DATA.DATA_Y
+         MOVETO.Z = DATA.DATA_Z
+         PTP MOVETO C_DIS         
+      ENDIF
+   ENDWHILE
+   
+END
+
+DEF Command_Processing()
+   DECL EKI_STATUS RET
+   DECL Wt_Pos_Q_DATA_STRUC DATA
+   
+   REAL _X ,_Y ,_Z 
+   
+   _X = 0
+   _Y = 200
+   _Z = 0
+   
+   ;MsgNotify("Command in")
+   
+   RET = EKI_GetREAL(LEAP_SERVER[] ,"Data/ActPos/@X" ,_X)
+   RET = EKI_GetREAL(LEAP_SERVER[] ,"Data/ActPos/@Y" ,_Y)
+   RET = EKI_GetREAL(LEAP_SERVER[] ,"Data/ActPos/@Z" ,_Z)
+   RET = EKI_ClearBuffer(LEAP_SERVER[],"Data/ActPos")
+   
+   
+   DATA.DATA_X = _X
+   DATA.DATA_Y = _Y
+   DATA.DATA_Z = _Z
+   IF NOT Wt_Pos_Q_IsFull() THEN
+      Wt_Pos_Q_Enqueue(DATA)
+   ENDIF
+   
+   $FLAG[2] = FALSE
+   RET = EKI_Send(LEAP_SERVER[] ,"e")
+END
+```
 - PC端程式
 
 ## 互動體驗
@@ -114,8 +183,8 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMT
-I4Mzk3OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2
-MzA4OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNT
-QsLTg2MDU0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbMzM2NDAwNjg4LC0xODU2NDE5OTIzLDEyMj
+Y4Njc5OTYsLTEyODM5NzkzODMsNDM5MDM5NjI3LDIwMzcyMzIx
+NzYsLTEwMzAxNjMwODgsLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC
+0xODk0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV19
 -->
