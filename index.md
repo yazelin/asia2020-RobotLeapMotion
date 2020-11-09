@@ -90,17 +90,17 @@ allowfullscreen></iframe>
 			<ELEMENT Tag="Data/ActPos" Type="INT" Set_Flag="2" />  
 			<ELEMENT Tag="Data/ActPos/@X" Type="REAL" />  
 			<ELEMENT Tag="Data/ActPos/@Y" Type="REAL" />  
-	<ELEMENT Tag="Data/ActPos/@Z" Type="REAL" />  
+			<ELEMENT Tag="Data/ActPos/@Z" Type="REAL" />  
 			<ELEMENT Tag="Data/ActPos/@A" Type="REAL" />  
-	<ELEMENT Tag="Data/ActPos/@B" Type="REAL" />  
-	<ELEMENT Tag="Data/ActPos/@C" Type="REAL" />  
-</XML>  
-</RECEIVE>  
-<SEND>  
-<XML>  
-<ELEMENT Tag="ROBOT/ACK" Type="STRING"/>  
-</XML>  
-</SEND>  
+			<ELEMENT Tag="Data/ActPos/@B" Type="REAL" />  
+			<ELEMENT Tag="Data/ActPos/@C" Type="REAL" />  
+		</XML>  
+	</RECEIVE>  
+	<SEND>  
+		<XML>  
+			<ELEMENT Tag="ROBOT/ACK" Type="STRING"/>  
+		</XML>  
+	</SEND>  
 </ETHERNETKRL>
 ```
 - 手臂端程式
@@ -114,8 +114,8 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNjcyMjksMTIyNjg2Nzk5NiwtMTI4Mz
-k3OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4
-OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLT
-g2MDU0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbLTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMT
+I4Mzk3OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2
+MzA4OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNT
+QsLTg2MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
