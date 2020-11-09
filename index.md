@@ -64,6 +64,7 @@ allowfullscreen></iframe>
 - 使用 USB 連結 Leapmotion 與 PC
 - 使用 網路線 連結 PC 與 機器手臂
 #### 軟體
+- KRL Kuka Robot Language [說明文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KUKA%20KRL-Syntax%208.x.pdf)
 - EKI KUKA網路通訊介面 [說明文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
 - Unity 遊戲引擎 [官網](https://store.unity.com/#plans-individual)
 - Leapmotion SDK [官網](https://developer.leapmotion.com/unity)
@@ -80,9 +81,10 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTY1NjU4LDQwODIzNjExMCwxMjg0NT
-c2NzIyLDYwMDI0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2
-LC0xMjgzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMD
-MwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYw
-OTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
+eyJoaXN0b3J5IjpbMzk0Njc1MjUwLC01MzU2NTY1OCw0MDgyMz
+YxMTAsMTI4NDU3NjcyMiw2MDAyNDU2MTYsLTE4NTY0MTk5MjMs
+MTIyNjg2Nzk5NiwtMTI4Mzk3OTM4Myw0MzkwMzk2MjcsMjAzNz
+IzMjE3NiwtMTAzMDE2MzA4OCwtMTkzNTI0NzQwNSw1MjU3NTE5
+MDEsLTE4OTQ2MDkyNTQsLTg2MDU0MjM3NywtNDMyMDQyMDUxXX
+0=
 -->
