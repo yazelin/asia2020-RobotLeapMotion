@@ -69,6 +69,9 @@ allowfullscreen></iframe>
 - Leapmotion SDK
 #### 通訊方式
 - EKI XML 格式
+``
+<Data><ActPos X="38.28448" Y="-4.016232" Z="-10.91361" A="0" B="0" C="0">0</ActPos></Data>
+``
 - 手臂端設定檔
 - 手臂端程式
 - PC端程式
@@ -81,7 +84,7 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjkxODU5MiwxMjI2ODY3OTk2LC0xMj
+eyJoaXN0b3J5IjpbMTYyMzM2NTM0MSwxMjI2ODY3OTk2LC0xMj
 gzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYz
 MDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NC
 wtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
