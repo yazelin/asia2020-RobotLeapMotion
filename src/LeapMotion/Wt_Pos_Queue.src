@@ -1,0 +1,169 @@
+﻿DEF Wt_Pos_Queue ( )
+;**************************************************
+;Creation Date: Dec. 30, 2017
+;Author: Lin@wtech.com.tw
+;Change:  
+;functions 
+;This is the kuka robot development framework WiseTech established,
+;Projects built following this framework will have excellent resilience,
+;Easy to extend the function, can provide better scalability when the project requirements are not clear.
+;**************************************************
+
+;This is a Queue Template
+;----------Global subroutines and functions: -------
+; Wt_Pos_Q_Init ( ) ;Wt_Pos_Queue Will be initialized
+; Wt_Pos_Q_IsFull() ;Whether the Wt_Pos_Queue is full
+; Wt_Pos_Q_IsEmpty() ;Whether the Wt_Pos_Queue is empty
+; Wt_Pos_Q_Enqueue(_Wt_Pos_DATA_IN:IN) ;Enqueue a Wt_Pos_DATA
+; Wt_Pos_DATA_STRUC Wt_Pos_Q_Dequeue() ;Dequeue a Wt_Pos_DATA
+; Wt_Pos_DATA_STRUC Wt_Pos_Q_Peek() ;peek a Wt_Pos_DATA without delete data
+;----------Explainations for parameters: -----------
+; Wt_Pos_DATA_IN a _Wt_Pos_DATA_STRUC DATA Will be placed in the queue
+;----------Examples: -------------------------------
+
+	;In this Example Wt_Pos_Q_MAX = 10
+	DECL Wt_Pos_Q_DATA_STRUC A,B,C,D,Data
+
+	A.DATA_CHAR[]="A";There is 4 Data will be placed in the queue
+	B.DATA_CHAR[]="B"
+	C.DATA_CHAR[]="C"
+	D.DATA_CHAR[]="D"
+
+	Wt_Pos_Q_Init ( )
+
+	LOOP      
+		Wt_Pos_Q_Enqueue(A) ;add A
+		Wt_Pos_Q_Enqueue(A) ;add A
+		Wt_Pos_Q_Enqueue(A) ;add A
+		Wt_Pos_Q_Enqueue(B) ;add B
+		Wt_Pos_Q_Enqueue(B) ;add B
+		Wt_Pos_Q_Enqueue(B) ;add B
+		Wt_Pos_Q_Enqueue(C) ;add C
+		Wt_Pos_Q_Enqueue(C) ;add C
+		Wt_Pos_Q_Enqueue(C) ;add C
+		Wt_Pos_Q_Enqueue(D) ;add D
+		Wt_Pos_Q_Enqueue(D) ;Can Not add D,will show massage "Circular Queue is full!"
+		Wt_Pos_Q_Enqueue(D) ;Can Not add D,will show massage "Circular Queue is full!"
+
+		IF Wt_Pos_Q_IsFull() THEN
+			MsgNotify("Full~~~~~~~~") ;queue is Full~~~~~~~~
+		ENDIF
+
+		Data = Wt_Pos_Q_Peek() ;Peek a Queue Item without delete data
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a A
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a A
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a A
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a A
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a B
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a B
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a B
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a C
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a C
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a C
+		Data = Wt_Pos_Q_Dequeue()
+		MsgNotify("I Get a %1", "Queue", , Data.DATA_CHAR[]) ;I Get a D 
+		IF Wt_Pos_Q_IsEmpty() THEN
+			MsgNotify("Empty~~~~~~~~") ;queue is Empty~~~~~~~~
+		ENDIF
+		HALT
+	ENDLOOP
+
+END
+
+GLOBAL DEF Wt_Pos_Q_Init ( )
+   INT I
+   Q_Wt_Pos.COUNT = 0
+   Q_Wt_Pos.FIRST = 0
+   Q_Wt_Pos.LAST = 0
+   Q_Wt_Pos.FULL = FALSE
+   
+   FOR I = 1 TO Q_Wt_Pos.MAX STEP 1
+      Wt_Pos_Q_DATA[I] = Wt_Pos_Q_DATA_EMPTY
+   ENDFOR
+END
+GLOBAL DEFFCT INT Wt_Pos_Q_Count()
+   RETURN Q_Wt_Pos.COUNT
+ENDFCT
+GLOBAL DEFFCT BOOL Wt_Pos_Q_IsFull()
+   RETURN (Q_Wt_Pos.FIRST == Q_Wt_Pos.LAST) AND (Q_Wt_Pos.FULL == TRUE)
+ENDFCT
+
+GLOBAL DEFFCT BOOL Wt_Pos_Q_IsEmpty()
+   RETURN (Q_Wt_Pos.FIRST == Q_Wt_Pos.LAST) AND (Q_Wt_Pos.FULL == FALSE)
+ENDFCT
+
+GLOBAL DEF Wt_Pos_Q_Enqueue(_DATA_IN:IN)
+   DECL Wt_Pos_Q_DATA_STRUC _DATA_IN
+   
+   IF Wt_Pos_Q_IsFull() OR ( (Q_Wt_Pos.LAST == Q_Wt_Pos.MAX) AND (Q_Wt_Pos.FIRST == 0) ) THEN
+      MsgNotify("Circular Queue is full!")
+      return;
+   ENDIF
+;   MsgNotify("Item is added!")
+      
+   Q_Wt_Pos.LAST = (Q_Wt_Pos.LAST + 1)
+   Wt_Pos_Q_Mod(Q_Wt_Pos.LAST)
+   
+   Wt_Pos_Q_DATA[Q_Wt_Pos.LAST+1] = _DATA_IN;
+   
+   if (Q_Wt_Pos.FIRST == Q_Wt_Pos.LAST)THEN
+      Q_Wt_Pos.FULL = TRUE;
+   ENDIF
+   Q_Wt_Pos.COUNT = Q_Wt_Pos.COUNT + 1
+END
+GLOBAL DEFFCT Wt_Pos_Q_DATA_STRUC Wt_Pos_Q_Dequeue()
+   DECL Wt_Pos_Q_DATA_STRUC _DATA_OUT
+   
+	if Wt_Pos_Q_IsEmpty() THEN
+		MsgNotify("Circular Queue is empty!");
+		RETURN Wt_Pos_Q_DATA_EMPTY;
+	ENDIF
+	
+	Q_Wt_Pos.FIRST = (Q_Wt_Pos.FIRST + 1)
+   Wt_Pos_Q_Mod(Q_Wt_Pos.FIRST)
+   
+	_DATA_OUT = Wt_Pos_Q_DATA[Q_Wt_Pos.FIRST+1]
+	Wt_Pos_Q_DATA[Q_Wt_Pos.FIRST+1] = Wt_Pos_Q_DATA_EMPTY	
+   
+;	MsgNotify("Item is deleted.");
+	
+	if (Q_Wt_Pos.FIRST == Q_Wt_Pos.LAST) THEN
+	   Q_Wt_Pos.FULL = FALSE;
+	ENDIF
+	Q_Wt_Pos.COUNT = Q_Wt_Pos.COUNT - 1
+	RETURN _DATA_OUT
+ENDFCT
+GLOBAL DEFFCT Wt_Pos_Q_DATA_STRUC Wt_Pos_Q_Peek()
+   DECL Wt_Pos_Q_DATA_STRUC _DATA_PEEK
+   INT _PEEK
+	if Wt_Pos_Q_IsEmpty() THEN
+		MsgNotify("Circular Queue is empty!\n");
+		RETURN Wt_Pos_Q_DATA_EMPTY;
+	ENDIF
+	
+	_PEEK = (Q_Wt_Pos.FIRST + 1)
+   Wt_Pos_Q_Mod(_PEEK)
+   
+	_DATA_PEEK = Wt_Pos_Q_DATA[_PEEK+1]	
+   
+	MsgNotify("Item is peek.");
+	
+	RETURN _DATA_PEEK
+ENDFCT
+DEF Wt_Pos_Q_Mod(_D:OUT)
+   INT _D,_M
+   _M = _D / Q_Wt_Pos.MAX
+   _M = _M * Q_Wt_Pos.MAX
+   _D = _D - _M
+
+END
+

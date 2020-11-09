@@ -1,0 +1,7 @@
+﻿DEFDAT LeapMotionExample
+
+EXT  BAS (BAS_COMMAND  :IN,REAL  :IN )
+
+CHAR LEAP_SERVER[15]
+LEAP_SERVER[]="LeepRobotServer"
+ENDDAT
