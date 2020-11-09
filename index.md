@@ -69,31 +69,31 @@ allowfullscreen></iframe>
 - Leapmotion SDK
 #### 通訊方式
 - EKI XML 格式
-``
+```
 <Data><ActPos X="38.28448" Y="-4.016232" Z="-10.91361" A="0" B="0" C="0">0</ActPos></Data>
-``
+```
 - 手臂端設定檔
-``
-<ETHERNETKRL>  
-<CONFIGURATION>  
-<EXTERNAL>  
-<TYPE>Client</TYPE>  
-</EXTERNAL>  
-<INTERNAL>  
-<IP>192.168.1.147</IP>  
-<PORT>54600</PORT>  
-<ALIVE Set_Flag="1"/>  
-</INTERNAL>  
-</CONFIGURATION>  
-<RECEIVE>  
-<XML>  
-<ELEMENT Tag="Data/ActPos" Type="INT" Set_Flag="2" />  
-<ELEMENT Tag="Data/ActPos/@X" Type="REAL" />  
-<ELEMENT Tag="Data/ActPos/@Y" Type="REAL" />  
-<ELEMENT Tag="Data/ActPos/@Z" Type="REAL" />  
-<ELEMENT Tag="Data/ActPos/@A" Type="REAL" />  
-<ELEMENT Tag="Data/ActPos/@B" Type="REAL" />  
-<ELEMENT Tag="Data/ActPos/@C" Type="REAL" />  
+```
+<ETHERNETKRL>
+	<CONFIGURATION>  
+		<EXTERNAL>  
+			<TYPE>Client</TYPE>  
+		</EXTERNAL>  
+		<INTERNAL>  
+			<IP>192.168.1.147</IP>  
+			<PORT>54600</PORT>  
+			<ALIVE Set_Flag="1"/>  
+		</INTERNAL>  
+	</CONFIGURATION>  
+	<RECEIVE>  
+		<XML>  
+			<ELEMENT Tag="Data/ActPos" Type="INT" Set_Flag="2" />  
+			<ELEMENT Tag="Data/ActPos/@X" Type="REAL" />  
+			<ELEMENT Tag="Data/ActPos/@Y" Type="REAL" />  
+	<ELEMENT Tag="Data/ActPos/@Z" Type="REAL" />  
+			<ELEMENT Tag="Data/ActPos/@A" Type="REAL" />  
+	<ELEMENT Tag="Data/ActPos/@B" Type="REAL" />  
+	<ELEMENT Tag="Data/ActPos/@C" Type="REAL" />  
 </XML>  
 </RECEIVE>  
 <SEND>  
@@ -102,7 +102,7 @@ allowfullscreen></iframe>
 </XML>  
 </SEND>  
 </ETHERNETKRL>
-``
+```
 - 手臂端程式
 - PC端程式
 
@@ -114,8 +114,8 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyMDIxNDg3LDEyMjY4Njc5OTYsLTEyOD
-M5NzkzODMsNDM5MDM5NjI3LDIwMzcyMzIxNzYsLTEwMzAxNjMw
-ODgsLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC0xODk0NjA5MjU0LC
-04NjA1NDIzNzcsLTQzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbMzQwNjcyMjksMTIyNjg2Nzk5NiwtMTI4Mz
+k3OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4
+OCwtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLT
+g2MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
