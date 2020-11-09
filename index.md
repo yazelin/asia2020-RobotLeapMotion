@@ -22,11 +22,7 @@
 ![Image](./img/Tool.jpg) 
 
 ### 6分鐘快速簡介
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=3UZCKB1lnW4" 
-frameborder="0" 
-allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3UZCKB1lnW4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 線上模擬環境
 - 我們把模擬環境放在網站上了
@@ -89,10 +85,10 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk0MTY2MDMsMzk0Njc1MjUwLC01Mz
-U2NTY1OCw0MDgyMzYxMTAsMTI4NDU3NjcyMiw2MDAyNDU2MTYs
-LTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMTI4Mzk3OTM4Myw0Mz
-kwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4OCwtMTkzNTI0
-NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2MDU0MjM3Ny
-wtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbMjcxNzkzOTg3LDM5NDY3NTI1MCwtNTM1Nj
+U2NTgsNDA4MjM2MTEwLDEyODQ1NzY3MjIsNjAwMjQ1NjE2LC0x
+ODU2NDE5OTIzLDEyMjY4Njc5OTYsLTEyODM5NzkzODMsNDM5MD
+M5NjI3LDIwMzcyMzIxNzYsLTEwMzAxNjMwODgsLTE5MzUyNDc0
+MDUsNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1NDIzNzcsLT
+QzMjA0MjA1MV19
 -->
