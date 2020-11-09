@@ -47,7 +47,7 @@
   - [Leap Motion Controller](https://www.ultraleap.com/product/leap-motion-controller/)
   
 ## Leap Motion與機器手臂互動介紹
-#### Unity+leapmotion與機器手臂
+#### Unity+LeapMotion與機器手臂
 <iframe width="560" height="315"
 src="./demo.mp4" 
 frameborder="0" 
@@ -80,9 +80,9 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI3OTUzNzgsMTI4NDU3NjcyMiw2MD
-AyNDU2MTYsLTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMTI4Mzk3
-OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4OC
-wtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2
-MDU0MjM3NywtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbNDA4MjM2MTEwLDEyODQ1NzY3MjIsNjAwMj
+Q1NjE2LC0xODU2NDE5OTIzLDEyMjY4Njc5OTYsLTEyODM5Nzkz
+ODMsNDM5MDM5NjI3LDIwMzcyMzIxNzYsLTEwMzAxNjMwODgsLT
+E5MzUyNDc0MDUsNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1
+NDIzNzcsLTQzMjA0MjA1MV19
 -->
