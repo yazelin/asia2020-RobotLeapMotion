@@ -239,8 +239,8 @@ public class LeapRobot : MonoBehaviour
         {
             str = "<Data><ActPos X=\"" + pos.x + "\" Y=\"" + pos.y + "\" Z=\"" + pos.z + "\" A=\"0\" B=\"0\" C=\"0\">0</ActPos></Data>";
             Debug.Log(str);
-            sw.WriteLine(str); // 將資料寫入緩衝
-            sw.Flush(); // 刷新緩衝並將資料傳到伺服器
+            sw.WriteLine(str);
+            sw.Flush();
 
             while (sr.Read() != 'e')
             {
@@ -262,9 +262,8 @@ public class LeapRobot : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODk2OTUyMywtMTg1NjQxOTkyMywxMj
-I2ODY3OTk2LC0xMjgzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMy
-MTc2LC0xMDMwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMS
-wtMTg5NDYwOTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
-
+eyJoaXN0b3J5IjpbNjAwMjQ1NjE2LC0xODU2NDE5OTIzLDEyMj
+Y4Njc5OTYsLTEyODM5NzkzODMsNDM5MDM5NjI3LDIwMzcyMzIx
+NzYsLTEwMzAxNjMwODgsLTE5MzUyNDc0MDUsNTI1NzUxOTAxLC
+0xODk0NjA5MjU0LC04NjA1NDIzNzcsLTQzMjA0MjA1MV19
 -->
