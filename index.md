@@ -190,14 +190,14 @@ public class LeapRobot : MonoBehaviour
     private StreamWriter sw;
     private bool isUpdating;
 	private GameObject go;
-    // Use this for initialization
+	
     void Start()
     {
 
         isUpdating = false;
         try
         {
-            tcp = new TcpClient(ip, port); // 1.設定 IP:Port 2.連線至伺服器
+            tcp = new TcpClient(ip, port); // 1.設定 IP:Port 2.連線至伺服器(Robot)
             sr = new StreamReader(tcp.GetStream());
             sw = new StreamWriter(tcp.GetStream());
 
@@ -262,7 +262,7 @@ public class LeapRobot : MonoBehaviour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDI0MzYwMCwtMTg1NjQxOTkyMywxMj
+eyJoaXN0b3J5IjpbMTAyODk2OTUyMywtMTg1NjQxOTkyMywxMj
 I2ODY3OTk2LC0xMjgzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMy
 MTc2LC0xMDMwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMS
 wtMTg5NDYwOTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
