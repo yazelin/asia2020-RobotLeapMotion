@@ -65,8 +65,8 @@ allowfullscreen></iframe>
 - 使用 網路線 連結 PC 與 機器手臂
 #### 軟體
 - EKI KUKA網路通訊介面
-- Unity 遊戲引擎
-- Leapmotion SDK [下載](.https://developer.leapmotion.com/unity
+- Unity 遊戲引擎 [官網](https://store.unity.com/#plans-individual)
+- Leapmotion SDK [官網](https://developer.leapmotion.com/unity)
 #### 通訊方式
 - EKI 使用 XML 格式 
 - 手臂端設定檔 [下載](./src/LeapMotion/LeepRobotServer.xml)
@@ -80,7 +80,7 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTE2ODgwMywxMjg0NTc2NzIyLDYwMD
+eyJoaXN0b3J5IjpbLTIxMjIzMDU4NywxMjg0NTc2NzIyLDYwMD
 I0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2LC0xMjgzOTc5
 MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYzMDg4LC
 0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NCwtODYw
