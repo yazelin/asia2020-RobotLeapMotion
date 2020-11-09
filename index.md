@@ -58,6 +58,15 @@ frameborder="0"
 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<video autoplay muted loop playsinline id="myVideo">
+
+<source src="http://www.wtech.com.tw/public/assets/video/Wisetech_20200923.mp4" type="video/mp4">
+
+Your browser does not support HTML5 video.
+
+</video>
+
+
 -   [其他參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
 -   [其他參考影片2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 
@@ -85,10 +94,10 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNzkzOTg3LDM5NDY3NTI1MCwtNTM1Nj
-U2NTgsNDA4MjM2MTEwLDEyODQ1NzY3MjIsNjAwMjQ1NjE2LC0x
-ODU2NDE5OTIzLDEyMjY4Njc5OTYsLTEyODM5NzkzODMsNDM5MD
-M5NjI3LDIwMzcyMzIxNzYsLTEwMzAxNjMwODgsLTE5MzUyNDc0
-MDUsNTI1NzUxOTAxLC0xODk0NjA5MjU0LC04NjA1NDIzNzcsLT
-QzMjA0MjA1MV19
+eyJoaXN0b3J5IjpbMzgyNTk4NDA3LDI3MTc5Mzk4NywzOTQ2Nz
+UyNTAsLTUzNTY1NjU4LDQwODIzNjExMCwxMjg0NTc2NzIyLDYw
+MDI0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2LC0xMjgzOT
+c5MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYzMDg4
+LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NCwtOD
+YwNTQyMzc3LC00MzIwNDIwNTFdfQ==
 -->
