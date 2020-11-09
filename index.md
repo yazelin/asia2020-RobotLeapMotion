@@ -48,13 +48,15 @@
   
 ## Leap Motion與機器手臂互動介紹
 #### Unity+leapmotion與機器手臂
--   [參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
--   [參考影片2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
 <iframe width="560" height="315"
 src="./demo.mp4" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+
+-   [其他參考影片1](https://www.facebook.com/wisetech.dakuo/videos/1212236958861791/)
+-   [其他參考影片2](https://www.facebook.com/wisetech.dakuo/videos/1225804447505042/)
+
 #### 硬體
 - Robot KR6 R700-2
 - Leapmotion
@@ -79,8 +81,8 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjg2Nzk5NiwtMTI4Mzk3OTM4Myw0Mz
-kwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4OCwtMTkzNTI0
-NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2MDU0MjM3Ny
-wtNDMyMDQyMDUxXX0=
+eyJoaXN0b3J5IjpbMTI1NjkxODU5MiwxMjI2ODY3OTk2LC0xMj
+gzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYz
+MDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NC
+wtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
 -->
