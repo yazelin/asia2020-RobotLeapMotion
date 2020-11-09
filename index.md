@@ -172,7 +172,88 @@ DEF Command_Processing()
 END
 ```
 - PC端程式
+```
+using UnityEngine;
+using System.Collections;
+using System;
+using System.Net;
+using System.Net.Sockets;
+using System.IO;
 
+public class LeapRobot : MonoBehaviour
+{
+
+    public string ip = "192.168.1.147";
+    public int port = 54600;
+    private TcpClient tcp;
+    private StreamReader sr;
+    private StreamWriter sw;
+    private bool isUpdating;
+	private GameObject go;
+    // Use this for initialization
+    void Start()
+    {
+
+        isUpdating = false;
+        try
+        {
+            tcp = new TcpClient(ip, port); // 1.設定 IP:Port 2.連線至伺服器
+            sr = new StreamReader(tcp.GetStream());
+            sw = new StreamWriter(tcp.GetStream());
+
+        }
+        catch (SocketException ex)
+        {
+            Debug.Log(ex);
+        }
+        catch (Exception ex)
+        {
+            Debug.Log(ex);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        GameObject go = GameObject.Find("HandModels/RigidRoundHand_R/index/bone3");
+        if (go)
+        {
+            if (!isUpdating)
+            {
+                isUpdating = true;
+                Debug.Log("waitFinish");
+                StartCoroutine(waitFinish(go.transform.position));
+            }
+        }
+    }
+
+    IEnumerator waitFinish(Vector3 unityPos)
+    {
+        Vector3 pos;
+        string str;
+        pos.x = -(float)(unityPos.z * 1000);
+        pos.y = (float)(unityPos.x * 1000);
+        pos.z = (float)(unityPos.y * 1000);
+        //限制範圍
+        if (-100 < pos.x && pos.x < 100 && -200 < pos.y && pos.y < 200 && -100 < pos.z && pos.z < 100)
+        {
+            str = "<Data><ActPos X=\"" + pos.x + "\" Y=\"" + pos.y + "\" Z=\"" + pos.z + "\" A=\"0\" B=\"0\" C=\"0\">0</ActPos></Data>";
+            Debug.Log(str);
+            sw.WriteLine(str); // 將資料寫入緩衝
+            sw.Flush(); // 刷新緩衝並將資料傳到伺服器
+
+            while (sr.Read() != 'e')
+            {
+                yield return new WaitForSeconds(0.001f);
+            }
+
+        }
+
+        isUpdating = false;
+    }
+}
+
+```
 ## 互動體驗
 - 通訊方式會影響手臂動作流暢度
 - 使用EKI方式 [參考連結](http://forum.wtech.com.tw/viewtopic.php?f=2&t=38)
@@ -181,7 +262,7 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDU5NzU5NCwtMTg1NjQxOTkyMywxMj
+eyJoaXN0b3J5IjpbLTI4MDI0MzYwMCwtMTg1NjQxOTkyMywxMj
 I2ODY3OTk2LC0xMjgzOTc5MzgzLDQzOTAzOTYyNywyMDM3MjMy
 MTc2LC0xMDMwMTYzMDg4LC0xOTM1MjQ3NDA1LDUyNTc1MTkwMS
 wtMTg5NDYwOTI1NCwtODYwNTQyMzc3LC00MzIwNDIwNTFdfQ==
