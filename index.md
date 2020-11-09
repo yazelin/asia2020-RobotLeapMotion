@@ -64,7 +64,7 @@ allowfullscreen></iframe>
 - 使用 USB 連結 Leapmotion 與 PC
 - 使用 網路線 連結 PC 與 機器手臂
 #### 軟體
-- EKI KUKA網路通訊介面 [說]
+- EKI KUKA網路通訊介面 [說明文件](http://www.wtech.com.tw/public/download/manual/kuka/krc4/KST-Ethernet-KRL-21-En.pdf)
 - Unity 遊戲引擎 [官網](https://store.unity.com/#plans-individual)
 - Leapmotion SDK [官網](https://developer.leapmotion.com/unity)
 #### 通訊方式
@@ -80,9 +80,9 @@ allowfullscreen></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODk3NTA1MywxMjg0NTc2NzIyLDYwMD
-I0NTYxNiwtMTg1NjQxOTkyMywxMjI2ODY3OTk2LC0xMjgzOTc5
-MzgzLDQzOTAzOTYyNywyMDM3MjMyMTc2LC0xMDMwMTYzMDg4LC
-0xOTM1MjQ3NDA1LDUyNTc1MTkwMSwtMTg5NDYwOTI1NCwtODYw
-NTQyMzc3LC00MzIwNDIwNTFdfQ==
+eyJoaXN0b3J5IjpbLTIwODI3OTUzNzgsMTI4NDU3NjcyMiw2MD
+AyNDU2MTYsLTE4NTY0MTk5MjMsMTIyNjg2Nzk5NiwtMTI4Mzk3
+OTM4Myw0MzkwMzk2MjcsMjAzNzIzMjE3NiwtMTAzMDE2MzA4OC
+wtMTkzNTI0NzQwNSw1MjU3NTE5MDEsLTE4OTQ2MDkyNTQsLTg2
+MDU0MjM3NywtNDMyMDQyMDUxXX0=
 -->
