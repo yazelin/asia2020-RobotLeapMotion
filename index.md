@@ -8,8 +8,8 @@
 ![Image](./img/RobotSystem.jpg)
 
 ### 機器手臂教導器 SmartPAD
-- SmartPAD 正面
 
+- SmartPAD 正面
 ![Image](./img/SmartPAD front.PNG)
 
 - SmartPAD 背面
