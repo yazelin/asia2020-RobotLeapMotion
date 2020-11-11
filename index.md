@@ -14,6 +14,8 @@
 - SmartPAD 背面
 ![Image](./img/SmartPAD back.PNG)
 
+- SmartPAD 主畫面
+![Image](./img/SmartPAD Main desktop.PNG)
 
 
 ### 軸向
