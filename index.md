@@ -7,6 +7,15 @@
 ### 六軸機器手臂
 ![Image](./img/RobotSystem.jpg)
 
+### 機器手臂教導器 SmartPAD
+- SmartPAD 正面
+![Image](./img/SmartPAD front.PNG)
+
+- SmartPAD 背面
+![Image](./img/SmartPAD back.PNG)
+
+
+
 ### 軸向
 - A1~A6 
 
